@@ -14,35 +14,42 @@
     <title>Home</title>
   </head>
   <body>
-    <nav>
+    <nav class="dark">
       <ul>
         <li>
-          <a class="active" href="#">Home</a>
+          <a class="active" href="#home">Home</a>
         </li>
 
         <li>
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#">Works</a>
+          <a href="#skills">Skills</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#projects">Works</a>
         </li>
       </ul>
     </nav>
-    <div class="hero">
+    <div id="home" class="hero">
       <div class="hero-content">
         <h1>Hello, I'm Kanhaya !</h1>
         <p>
-            I'm an engineering student at CMR Institute of Technology , Bangalore. I spend most of my time programming and learning new stuff that I find intresting
-        </p>
+          <!-- I'm an engineering student at CMR Institute of Technology , Bangalore.
+           -->
+          A webdeveloper and a programmer. I spend most of my time programming and learning new things that I find intresting.
         <div class="icons">
-        <a href="https://github.com/kanhayaKy"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/kanhayaky/"><i class="fab fa-linkedin-in"></i> </a>
-        <a href="https://www.instagram.com/k__.__y/"><i class="fab fa-instagram"></i> </a>
-        <a href=""><i class="fas fa-paper-plane"></i></a>
-        <a href=""><i class="fab fa-discord"></i></a>
+          <a href="https://github.com/kanhayaKy"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/kanhayaky/"
+            ><i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://www.instagram.com/k__.__y/"
+            ><i class="fab fa-instagram"></i>
+          </a>
+          <a href=""><i class="fas fa-paper-plane"></i></a>
+          <a href=""><i class="fab fa-discord"></i></a>
         </div>
       </div>
       <div>
@@ -50,140 +57,175 @@
       </div>
     </div>
 
-    <div>
+    <div id="about">
       <div class="container-fluid off-white">
         <section class="container flex-container">
-            <div class="display-pic">
-                <img src="assets/ky.jpg" alt="">
-            </div>
-        <div>
-          <h2>About Me</h2>
-          <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          fringilla felis et est venenatis, sed varius lacus egestas. Cras
-          ornare, sem eget pellentesque ornare, tellus arcu placerat erat, at
-          sagittis purus enim nec quam. Mauris a neque quis lacus lacinia
-          ullamcorper. Duis rhoncus ac urna eget aliquet. Morbi eleifend sit
-          amet lorem in tempus. Praesent placerat erat at auctor interdum. Nunc
-          suscipit lectus sit amet rutrum congue. Phasellus nec efficitur
-          sapien, non tincidunt odio. Vestibulum aliquam pellentesque purus sit
-          amet consequat. Nullam pulvinar pharetra gravida. Vivamus ut nibh
-          molestie, sodales dolor non, tempor nibh. Quisque vel pellentesque
-          urna. In odio felis, ultricies quis orci vulputate, cursus malesuada
-          velit. Duis ut turpis vitae arcu vehicula imperdiet nec eget felis.
-        </p>
-        </div>
-            </section>
+          <div class="display-pic">
+            <img src="assets/ky.jpg" alt="" />
+          </div>
+          <div>
+            <h2>About Me</h2>
+            <p>
+            I'm currently pursuing my bachelor's degree in <span>Information science and engineering</span> at <span>CMR Institute of Technology, Bangalore </span>.
+            I have a good grip on programming and I keep improving it by attending various contests that tests my programming knowledge and ability to solve problems. The knowledge of multiple languages gives me the power to build projects using various technologies. 
+            </p>
+            <p>
+              <h2>Languages </h2>
+
+              <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+              <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+              <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
+                <code><img height="32" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/The_C_Programming_Language_logo.svg/200px-The_C_Programming_Language_logo.svg.png"></code>
+              <code><img height="32" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/131px-Java_programming_language_logo.svg.png"></code>
+              <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png"></code>
+            </p>
+          </div>
+
+        </section>
       </div>
     </div>
 
-      <div class="container-fluid">
-        <section class="container">
-            <h2>SKILLS</h2>
+    <div id="skills" class="container-fluid">
+      <section class="container">
+        <h2>SKILLS</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="assets/skills/react.svg" alt="" />
+            <div class="card-content">
+              <h3>React</h3>
+              <p>It is a javascript frontend library which is used to make UI components. </p>
+            </div>
+          </div>
 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          fringilla felis et est venenatis, sed varius lacus egestas. Cras
-          ornare, sem eget pellentesque ornare, tellus arcu placerat erat, at
-          sagittis purus enim nec quam. Mauris a neque quis lacus lacinia
-          ullamcorper. Duis rhoncus ac urna eget aliquet. Morbi eleifend sit
-          amet lorem in tempus. Praesent placerat erat at auctor interdum. Nunc
-          suscipit lectus sit amet rutrum congue. Phasellus nec efficitur
-          sapien, non tincidunt odio. Vestibulum aliquam pellentesque purus sit
-          amet consequat. Nullam pulvinar pharetra gravida. Vivamus ut nibh
-          molestie, sodales dolor non, tempor nibh. Quisque vel pellentesque
-          urna. In odio felis, ultricies quis orci vulputate, cursus malesuada
-          velit. Duis ut turpis vitae arcu vehicula imperdiet nec eget felis.
-          Donec tempor quam vitae pretium feugiat. Interdum et malesuada fames
-          ac ante ipsum primis in faucibus. In hac habitasse platea dictumst.
-          Curabitur posuere diam fringilla bibendum elementum. Suspendisse
-          dapibus hendrerit lacus. Pellentesque urna quam, ornare ac ex nec,
-          rhoncus iaculis lectus. Phasellus turpis urna, posuere sit amet magna
-          at, iaculis tincidunt leo. Cras finibus mauris ac cursus tempor.
-          Pellentesque vitae suscipit tortor, ut imperdiet ipsum. Ut ut rutrum
-          nulla. Aliquam condimentum augue et sagittis rutrum. Nullam finibus
-          tincidunt lacus, ut vestibulum nisl pulvinar et. Donec tellus dui,
-          pretium et sollicitudin quis, pretium eu sapien. Quisque condimentum
-          libero vitae magna eleifend aliquam. Nunc id tellus hendrerit, porta
-          eros sed, tempus nisl. Maecenas a justo gravida, accumsan eros non,
-          mollis leo. Proin vestibulum ante purus, nec pretium magna fermentum
-          non. Morbi lorem mauris, congue non mi et, gravida sollicitudin magna.
-          Aenean vel tempor odio, vel rutrum lacus. Nulla mattis tempor lorem,
-          et fringilla elit dictum vel. Vivamus purus est, imperdiet at arcu
-          eget, volutpat fringilla mi. Nam vestibulum enim eu metus tempus,
-          gravida aliquet urna aliquam. Suspendisse et enim ac ex semper
-          consequat. Nulla facilisi. Proin egestas commodo porttitor. Cras
-          ornare lectus felis, posuere porttitor orci accumsan id. Proin egestas
-          arcu turpis, sit amet cursus urna pharetra sit amet. Aenean nisi odio,
-          rutrum sit amet consequat in, semper id ante. Duis vitae hendrerit
-          justo. Cras egestas nisi mattis ante pharetra, vitae cursus nunc
-          fringilla. Mauris vitae ex imperdiet, gravida quam egestas, porta
-          felis. Morbi porta urna vel justo luctus porttitor. Nam commodo,
-          lectus at convallis ullamcorper, purus neque lobortis odio, vitae
-          pellentesque massa sapien ac eros.
-        </section>
+          <div class="card">
+            <img src="assets/skills/nodejs.svg" alt="" />
+            <div class="card-content">
+              <h3>NodeJs</h3>
+              <p>Nodejs is a backend javascript runtime environment which can be used to execure javascript outside the  web browser.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/skills/expressjs.svg" alt="" />
+            <div class="card-content">
+              <h3>ExpressJs</h3>
+              <p>Express, is a back end web application framework for Node.js. It provide server-side logic for web and mobile applications.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/skills/MongoDB_Logo_FullColorBlack_RGB.svg"
+              alt=""
+            />
+            <div class="card-content">
+              <h3>MongoDb</h3>
+              <p>Mongo is a NoSQL database . MongoDB stores data in flexible, JSON-like documents.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/skills/django.svg" alt="" />
+            <div class="card-content">
+              <h3>Django</h3>
+              <p>Django is a python web-framework that follows MVC architecture. It  allow us to dynamically generate HTML and CSS. </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/skills/flutter.svg" alt="" />
+            <div class="card-content">
+              <h3>Flutter</h3>
+              <p>Flutter is Google’s UI toolkit for building beautiful, natively compiled applications for mobile, web, and desktop from a single codebase. </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/skills/git.svg" alt="" />
+            <div class="card-content">
+              <h3>Git</h3>
+              <p>Git is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively . </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/skills/docker.svg" alt="" />
+            <div class="card-content">
+              <h3>Docker</h3>
+              <p>Docker is an open platform for developing, shipping, and running applications. It uses the concept of conatinerisation to achieve this.</p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="assets/skills/heroku.svg" alt="" />
+            <div class="card-content">
+              <h3>Heroku</h3>
+              <p>Heroku is a container-based cloud Platform as a Service (PaaS). Developers use Heroku to deploy, manage, and scale modern apps.</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
-    <div class="container-fluid gray">
-        <section class="container">
-            <h2>Projects</h2>
+    <div id="projects" class="container-fluid gray">
+      <section class="container">
+        <h2>My Works</h2>
 
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-          fringilla felis et est venenatis, sed varius lacus egestas. Cras
-          ornare, sem eget pellentesque ornare, tellus arcu placerat erat, at
-          sagittis purus enim nec quam. Mauris a neque quis lacus lacinia
-          ullamcorper. Duis rhoncus ac urna eget aliquet. Morbi eleifend sit
-          amet lorem in tempus. Praesent placerat erat at auctor interdum. Nunc
-          suscipit lectus sit amet rutrum congue. Phasellus nec efficitur
-          sapien, non tincidunt odio. Vestibulum aliquam pellentesque purus sit
-          amet consequat. Nullam pulvinar pharetra gravida. Vivamus ut nibh
-          molestie, sodales dolor non, tempor nibh. Quisque vel pellentesque
-          urna. In odio felis, ultricies quis orci vulputate, cursus malesuada
-          velit. Duis ut turpis vitae arcu vehicula imperdiet nec eget felis.
-          Donec tempor quam vitae pretium feugiat. Interdum et malesuada fames
-          ac ante ipsum primis in faucibus. In hac habitasse platea dictumst.
-          Curabitur posuere diam fringilla bibendum elementum. Suspendisse
-          dapibus hendrerit lacus. Pellentesque urna quam, ornare ac ex nec,
-          rhoncus iaculis lectus. Phasellus turpis urna, posuere sit amet magna
-          at, iaculis tincidunt leo. Cras finibus mauris ac cursus tempor.
-          Pellentesque vitae suscipit tortor, ut imperdiet ipsum. Ut ut rutrum
-          nulla. Aliquam condimentum augue et sagittis rutrum. Nullam finibus
-          tincidunt lacus, ut vestibulum nisl pulvinar et. Donec tellus dui,
-          pretium et sollicitudin quis, pretium eu sapien. Quisque condimentum
-          libero vitae magna eleifend aliquam. Nunc id tellus hendrerit, porta
-          eros sed, tempus nisl. Maecenas a justo gravida, accumsan eros non,
-          mollis leo. Proin vestibulum ante purus, nec pretium magna fermentum
-          non. Morbi lorem mauris, congue non mi et, gravida sollicitudin magna.
-          Aenean vel tempor odio, vel rutrum lacus. Nulla mattis tempor lorem,
-          et fringilla elit dictum vel. Vivamus purus est, imperdiet at arcu
-          eget, volutpat fringilla mi. Nam vestibulum enim eu metus tempus,
-          gravida aliquet urna aliquam. Suspendisse et enim ac ex semper
-          consequat. Nulla facilisi. Proin egestas commodo porttitor. Cras
-          ornare lectus felis, posuere porttitor orci accumsan id. Proin egestas
-          arcu turpis, sit amet cursus urna pharetra sit amet. Aenean nisi odio,
-          rutrum sit amet consequat in, semper id ante. Duis vitae hendrerit
-          justo. Cras egestas nisi mattis ante pharetra, vitae cursus nunc
-          fringilla. Mauris vitae ex imperdiet, gravida quam egestas, porta
-          felis. Morbi porta urna vel justo luctus porttitor. Nam commodo,
-          lectus at convallis ullamcorper, purus neque lobortis odio, vitae
-          pellentesque massa sapien ac eros.
-        </section>
-      
+        <div class="cards">
+          <div class="project-card">
+            <iframe
+              src="https://www.youtube.com/embed/2Kw02HfbIlg?controls=0"
+            >
+            </iframe>
+            <div class="card-content">
+              A mail application built using Django and javascript. 
+            
+              <div class="flex-container">
+                                <a href="https://github.com/kanhayaKy/Cs50-project3-mail" target="_blank">Repository</a></p>
+               </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <iframe
+              src="https://guarded-gorge-01824.herokuapp.com/test"
+              
+            ></iframe>
+            <div class="card-content">
+              A Todo List application built using expressjs and mongodb
+            
+              <div class="flex-container"><a href="https://guarded-gorge-01824.herokuapp.com/" target="_blank">Live preview</a></p>
+                <a href="https://github.com/kanhayaKy/TodoList" target="_blank">Repository</a></p>
+               </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="assets/projects/markdown-previewer.png" alt="" />
+            <div class="card-content">
+              Markdown editor using react js
+              
+             <div class="flex-container"><a href="https://reverent-wescoff-6d1485.netlify.app/" target="_blank">Live preview</a></p>
+             <a href="https://github.com/kanhayaKy/Markdown-editor" target="_blank">Repository</a></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </div>
-    
-
 
     <footer>
       <div class="container">
         <p>Get in touch</p>
         <a href="mailto:kanhaya.workspace@gmail.com"
-          ><i class="far fa-envelope"></i></a>
+          ><i class="far fa-envelope"></i
+        ></a>
         <a href="https://github.com/kanhayaKy"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/kanhayaky/"><i class="fab fa-linkedin-in"></i> </a>
-        <a href="https://www.instagram.com/k__.__y/"><i class="fab fa-instagram"></i> </a>
+        <a href="https://www.linkedin.com/in/kanhayaky/"
+          ><i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/k__.__y/"
+          ><i class="fab fa-instagram"></i>
+        </a>
         <a href=""><i class="fas fa-paper-plane"></i></a>
         <a href=""><i class="fab fa-discord"></i></a>
         <p class="cp-text">Copyright Kanhaya 2020</p>
-        <p class="cp-text"> Design by Kanhaya </p>
+        <p class="cp-text">Design by Kanhaya</p>
       </div>
     </footer>
   </body>
