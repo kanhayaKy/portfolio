@@ -166,7 +166,7 @@ nav .active {
   margin: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 50vw;
+  max-width: 60vw;
 }
 
 .flex-container{
@@ -174,14 +174,18 @@ nav .active {
     justify-content: center;
 }
 
+
+
 .flex-container div{
     margin: 0 3rem;
+    max-width: 40vw;
 }
 
 .display-pic img{
     border-radius: 2.5rem;
     margin:2rem 0;
     padding: 1rem;
+    max-width: 15rem;
 }
 
 /* Cards */
@@ -191,6 +195,8 @@ nav .active {
   flex-wrap: wrap;
 
 }
+
+
 
 .card{
   max-width: 12vw;
