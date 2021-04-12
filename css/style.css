@@ -166,7 +166,11 @@ nav .active {
   margin: auto;
   padding-left: 1rem;
   padding-right: 1rem;
-  max-width: 60vw;
+  max-width: 60vw;@media screen and (max-width: 900px) {
+    .flex-container{
+    flex-direction:column;
+    }
+  }
 }
 
 .flex-container{
