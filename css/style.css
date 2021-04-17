@@ -5,12 +5,13 @@
   --gray: #f3f4f6;
 }
 
-body {
+html,body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 section {
@@ -58,6 +59,9 @@ code {
   margin: 0.5rem;
 }
 
+.burger-nav {
+  display: none;
+}
 /* Hero */
 .hero {
   background-image: url("../assets/Hero1.jpg");
@@ -77,7 +81,6 @@ code {
   color: var(--secondary-color);
   min-width: 760px;
   min-height: 340px;
-  height: 40%;
   width: 52%;
   text-align: center;
   border-radius: 1rem;
@@ -120,6 +123,9 @@ code {
   font-size: 2.3rem;
 }
 
+.icons {
+  margin-bottom: 1rem;
+}
 /* Containers */
 .container-fluid {
   padding-left: 1rem;
@@ -217,7 +223,7 @@ code {
 }
 
 .project-card a {
-  margin:0 auto;
+  margin: 0 auto;
   text-decoration: none;
   color: gray;
 }
@@ -235,7 +241,7 @@ footer {
 }
 
 footer i {
-  margin: 0 2rem;
+  margin: 1rem 2rem;
 }
 
 footer h4 {
@@ -258,7 +264,7 @@ footer a:hover {
   font-size: x-small;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 800px) {
   nav ul {
     text-align: center;
   }
@@ -289,5 +295,49 @@ footer a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .burger-nav {
+    display: block;
+    height: 30px;
+    font-size: 2rem;
+  }
+ 
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 0;
+
+  }
+
+  nav ul li {
+    display: block;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a {
+    font-size: medium;
+    border-bottom: 1px solid #9ca3af;
+    display: block;
+  }
+
+  .open{
+    height: auto;
+  }
+ 
+  .hero-content h1 {
+    font-size: 1.5em;
+    padding: 0.5rem;
+  }
+
+  .hero-content p {
+    padding: 0 3rem;
+    font-size: 1.2rem;
   }
 }
