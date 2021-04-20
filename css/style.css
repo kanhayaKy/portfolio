@@ -166,6 +166,21 @@ code {
   margin: 1rem;
 }
 
+.download-button{
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 0.5rem;
+  background-color: var(--secondary-color);
+  font-size: 1.2rem;
+}
+
+.download-button:hover{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
 /* cards  */
 .cards {
   display: flex;
